@@ -3,7 +3,7 @@
  * @Description:
  * @Date: 2021/10/25 18:56:51
  * @LastEditors: jrucker
- * @LastEditTime: 2022/01/26 11:12:45
+ * @LastEditTime: 2023/08/17 11:43:59
  */
 
 export enum RouterMode {
@@ -26,7 +26,7 @@ export function getEnv(val) {
   let obj = {
     development: 'nzf-dev',
     deployment: 'nzf-dev',
-    release: 'nzf-test',
+    test: 'nzf-test',
     production: 'nzf-prod'
   }
   return obj[val]
